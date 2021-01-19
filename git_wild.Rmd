@@ -37,7 +37,10 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ```{r break-it-1}
 ggplot(data = diamonds, aes(x = carat, y = cut, color = price)) +
   geom_point() +
-  theme_minimal()
+  theme_minimal()+
+  labs(
+    x = "carat!!!"
+  )
 # a SUPER exciting graph :)
 ```
 
