@@ -45,9 +45,7 @@ ggplot(data = diamonds, aes(x = carat, y = cut, color = price)) +
 # a SUPER exciting graph :) definitely!
 ```
 
-```{r break-it-2}
-diamonds_ideal <- diamonds %>% 
-  filter(cut=="Ideal")
+
 ```
 
 ## END Discussion 3
