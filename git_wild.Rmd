@@ -35,13 +35,14 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+
 ggplot(data = diamonds, aes(x = carat, y = cut, color = price)) +
   geom_point() +
   theme_minimal()+
   labs(
     x = "carat!!!"
   )
-# a SUPER exciting graph :)
+# a SUPER exciting graph :) definitely!
 ```
 
 ```{r break-it-2}
