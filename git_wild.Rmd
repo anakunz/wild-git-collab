@@ -45,9 +45,7 @@ ggplot(data = diamonds, aes(x = carat, y = cut, color = price)) +
 # a SUPER exciting graph :) definitely!
 ```
 
-```{r break-it-2}
-# Yay branches! Woooohooo
-# love breaking things
+
 ```
 
 ## END Discussion 3
